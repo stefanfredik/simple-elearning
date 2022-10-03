@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1653758203;_ci_previous_url|s:48:"http://localhost:8080/index.php/admin/datasiswa/";id|s:1:"7";nama|s:4:"fred";email|s:16:"fredik@jinom.net";role|s:5:"admin";login|b:1;pesan|a:3:{s:5:"judul";s:10:"Data Siswa";s:5:"pesan";s:29:"Data Siswa berhasil ditambah!";s:4:"type";s:7:"success";}__ci_vars|a:1:{s:5:"pesan";s:3:"old";}

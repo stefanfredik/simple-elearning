@@ -1,0 +1,99 @@
+<?= $this->extend('template/admin/adminTemplate'); ?>
+<?= $this->section('content'); ?>
+
+<div>
+
+
+    <div class="card mb-4">
+        <div class="card-header">
+            <i class="fas fa-table me-1"></i>
+            <?= $title; ?>
+            <br>
+
+            <a data-bs-toggle="modal" data-bs-target="#exampleModal" id="tambah" class="m-2 btn btn-primary"> <i class="mx-2 bi bi-plus-square"></i>Tambah Data Siswa</a>
+        </div>
+        <div class="card-body">
+
+            <table class="table border" id="datasiswa">
+
+                <thead>
+                    <tr>
+                        <th class="col-1">No</th>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Kelas</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    <?php
+                    $no = 1;
+                    foreach ($dataSiswa as $data) : ?>
+                        <tr>
+                            <td><?= $no++; ?> </td>
+                            <td><?= ucwords($data['nama']); ?></td>
+                            <td><?= $data['email']; ?></td>
+                            <td><?= ucwords($data['jenis_kelamin']); ?></td>
+                            <td><?= $data["nama_ruangan"]; ?></td>
+
+                            <td>
+                                <a class="btn btn-sm btn-outline-primary" href="/admin/datasiswa/detail/<?= $data["id"]; ?>">Detail</a>
+                                <button @click="edit('/admin/datasiswa/edit/','<?= $data['id']; ?>')" class="m-2 btn btn-sm btn-warning"><i class="bi bi-pencil-square"></i></button>
+                                <button @click="hapus('/admin/datasiswa/hapus/<?= $data['id']; ?>')" class="btn btn-sm btn-danger" href="/admin/datasiswa/hapus/<?= $data['id']; ?>"><i class="bi bi-x-square"></i></button>
+                                <button @click="edit('/admin/datasiswa/ubahpassword/','<?= $data['id']; ?>')" class="mx-4 m-2 btn btn-sm btn-primary"><i class="bi bi-key"></i></i></button>
+                            </td>
+                        </tr>
+
+                    <?php endforeach; ?>
+
+
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+
+<!-- Modal Tambah Data -->
+
+<?= $this->include('admin/datasiswa/tambah'); ?>
+
+<?php
+$this->session = \Config\Services::session();
+
+if ($data = $this->session->getFlashdata("edit")) {
+    echo $this->include("admin/datasiswa/edit");
+}
+
+if ($data = $this->session->getFlashdata("ubahpassword")) {
+    echo $this->include("admin/datasiswa/editpassword");
+} ?>
+
+<?= $this->endSection(); ?>
+
+
+<?= $this->section("script"); ?>
+<?php $val = \Config\Services::validation(); ?>
+<script>
+    <?php if ($this->session->getFlashdata("tambah")) { ?>
+        var tambahModal = document.getElementById('exampleModal')
+        var modal = new bootstrap.Modal(tambahModal);
+        modal.show();
+    <?php } ?>
+
+    <?php if ($this->session->getFlashdata("password")) { ?>
+        var editModal = document.getElementById('editModal')
+        var modal = new bootstrap.Modal(editModal);
+        modal.show();
+    <?php } ?>
+
+    $(document).ready(function() {
+        $('#datasiswa').DataTable();
+    });
+</script>
+
+<?= $this->endSection(); ?>

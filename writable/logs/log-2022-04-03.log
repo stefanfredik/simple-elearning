@@ -1,0 +1,840 @@
+CRITICAL - 2022-04-03 06:25:21 --> Invalid file: home/index.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Home.php(15): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-03 06:38:12 --> Invalid file: .php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Home.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 07:09:26 --> Cannot declare class App\Controllers\Guru\Guru, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-03 07:09:38 --> Call to undefined method CodeIgniter\View\View::endEction()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Home.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Home->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 07:09:39 --> Call to undefined method CodeIgniter\View\View::endEction()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Home.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Home->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 07:09:39 --> Call to undefined method CodeIgniter\View\View::endEction()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Home.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Home->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 07:09:51 --> Undefined variable $title
+#0 /media/disk/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Home.php(15): view()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Home->index()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-04-03 07:11:26 --> Invalid file: template/admin/guruSidebar.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(13): CodeIgniter\View\View->include()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#7 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Home.php(15): view()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Home->index()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#11 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+CRITICAL - 2022-04-03 07:58:37 --> Invalid file: guru/kelas.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-03 07:59:47 --> Invalid file: guru/kelas.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-03 07:59:49 --> Invalid file: guru/kelas.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-03 08:00:01 --> Invalid file: temlate/guru/guruTemplate.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 08:00:02 --> Invalid file: temlate/guru/guruTemplate.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 08:00:02 --> Invalid file: temlate/guru/guruTemplate.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-03 08:12:49 --> Too few arguments to function CodeIgniter\View\View::section(), 0 passed in /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php on line 25 and exactly 1 expected
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(25): CodeIgniter\View\View->section()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(15): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 09:15:00 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 09:15:18 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 09:15:27 --> syntax error, unexpected token "}", expecting identifier or variable or "{" or "$"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 09:17:15 --> Undefined property: App\Controllers\Login::$input
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 09:17:34 --> Undefined property: App\Controllers\Login::$input
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+ERROR - 2022-04-03 09:58:08 --> Table 'elearning.datadmin' doesn't exist
+CRITICAL - 2022-04-03 09:58:08 --> Table 'elearning.datadmin' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataguru.php(52): CodeIgniter\Controller->validate()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->tambah()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2022-04-03 09:58:32 --> Table 'elearning.datadmin' doesn't exist
+CRITICAL - 2022-04-03 09:58:32 --> Table 'elearning.datadmin' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataguru.php(52): CodeIgniter\Controller->validate()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->tambah()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+ERROR - 2022-04-03 09:58:36 --> Table 'elearning.datadmin' doesn't exist
+CRITICAL - 2022-04-03 09:58:36 --> Table 'elearning.datadmin' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->is_unique()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataguru.php(52): CodeIgniter\Controller->validate()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->tambah()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2022-04-03 10:07:28 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:08:43 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:08:44 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:06 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:07 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:08 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:08 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:08 --> Undefined property: App\Controllers\Login::$cekUser
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:27 --> Trying to access array offset on value of type null
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:28 --> Trying to access array offset on value of type null
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:09:45 --> Trying to access array offset on value of type null
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:19:34 --> Trying to access array offset on value of type null
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:21:06 --> Cannot access offset of type string on string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-03 10:22:54 --> Trying to access array offset on value of type bool
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:23:34 --> Trying to access array offset on value of type bool
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:24:00 --> Trying to access array offset on value of type bool
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:24:04 --> Trying to access array offset on value of type bool
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:31:38 --> Undefined array key "user_id"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:34:01 --> Undefined array key "user_id"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:35:23 --> Undefined array key "user_id"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-03 10:44:55 --> Object of class Closure could not be converted to string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-03 10:45:05 --> Object of class Closure could not be converted to string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-03 10:47:44 --> Object of class Closure could not be converted to string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-03 10:47:59 --> Object of class Closure could not be converted to string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-03 10:59:13 --> Call to undefined method CodeIgniter\View\View::session()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(13): CodeIgniter\View\View->include()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Home.php(15): view()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Home->index()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2022-04-03 11:01:34 --> syntax error, unexpected token "return"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(790): class_exists()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-03 11:14:57 --> Undefined variable $kelas
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(25): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 11:16:23 --> Undefined variable $datajadwal
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(25): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 11:19:04 --> Undefined array key "kelas"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(41): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 11:21:27 --> Undefined variable $nama_mapel
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(41): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 11:26:55 --> Undefined variable $d
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(41): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:41:56 --> Unknown column 'nama_ruangan' in 'field list'
+CRITICAL - 2022-04-03 12:41:56 --> Unknown column 'nama_ruangan' in 'field list'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:06 --> Unknown column 'nama_ruangan' in 'field list'
+CRITICAL - 2022-04-03 12:42:06 --> Unknown column 'nama_ruangan' in 'field list'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:07 --> Unknown column 'nama_ruangan' in 'field list'
+CRITICAL - 2022-04-03 12:42:07 --> Unknown column 'nama_ruangan' in 'field list'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:08 --> Unknown column 'nama_ruangan' in 'field list'
+CRITICAL - 2022-04-03 12:42:08 --> Unknown column 'nama_ruangan' in 'field list'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:35 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2022-04-03 12:42:35 --> Unknown column 'nama' in 'field list'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:58 --> Unknown column 'dataguru.id' in 'where clause'
+CRITICAL - 2022-04-03 12:42:58 --> Unknown column 'dataguru.id' in 'where clause'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:59 --> Unknown column 'dataguru.id' in 'where clause'
+CRITICAL - 2022-04-03 12:42:59 --> Unknown column 'dataguru.id' in 'where clause'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:42:59 --> Unknown column 'dataguru.id' in 'where clause'
+CRITICAL - 2022-04-03 12:42:59 --> Unknown column 'dataguru.id' in 'where clause'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:43:00 --> Unknown column 'dataguru.id' in 'where clause'
+CRITICAL - 2022-04-03 12:43:00 --> Unknown column 'dataguru.id' in 'where clause'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 12:43:19 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(40): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-03 12:43:20 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(40): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:45:46 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:45:46 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:46:25 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:46:25 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:46:26 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:46:26 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:46:26 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:46:26 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:30 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:30 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:30 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:30 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+CRITICAL - 2022-04-03 12:47:31 --> Not unique table/alias: 'datamapel'
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-04-03 12:50:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `dataguru` ON `dataguru`.`id` = `datajadwal`.`guru`
+OUTER JOIN `da...' at line 3
+CRITICAL - 2022-04-03 12:50:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'OUTER JOIN `dataguru` ON `dataguru`.`id` = `datajadwal`.`guru`
+OUTER JOIN `da...' at line 3
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(30): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}

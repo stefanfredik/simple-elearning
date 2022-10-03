@@ -1,0 +1,1526 @@
+CRITICAL - 2022-05-21 09:20:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 /media/fred/Work/coding/ta/ta/spark(45): require('...')
+#2 {main}
+ERROR - 2022-05-21 00:00:34 --> Column 'guru' cannot be null
+CRITICAL - 2022-05-21 00:00:34 --> Column 'guru' cannot be null
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /media/fred/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(52): CodeIgniter\BaseModel->save()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2022-05-21 00:08:47 --> Undefined array key "ruangan"
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Tugas.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Tugas->kerjatugas()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 00:28:47 --> Undefined array key "ruangan"
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Tugas.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Tugas->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 00:31:48 --> Class "App\Controllers\Siswa\quizModel" not found
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Siswa\Quiz->__construct()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 00:38:43 --> Invalid file: siswa/quiz/index.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Quiz.php(43): view()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Quiz->index()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-05-21 00:40:44 --> Invalid file: siswa/quiz/kerjaquiz.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Quiz.php(85): view()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Quiz->kerjaquiz()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-05-21 00:41:15 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/quiz/kerjaquiz.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Quiz.php(85): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Quiz->kerjaquiz()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 00:48:30 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Siswa\Ujian->__construct()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 00:49:27 --> Invalid file: siswa/ujian/index.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Ujian.php(43): view()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Ujian->index()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2022-05-21 00:51:31 --> Table 'elearning.dataujians' doesn't exist
+CRITICAL - 2022-05-21 00:51:31 --> Table 'elearning.dataujians' doesn't exist
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Ujian.php(68): CodeIgniter\BaseModel->find()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Ujian->kerjaujian()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-05-21 00:52:26 --> Table 'elearning.dataujians' doesn't exist
+CRITICAL - 2022-05-21 00:52:26 --> Table 'elearning.dataujians' doesn't exist
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Ujian.php(68): CodeIgniter\BaseModel->find()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Ujian->kerjaujian()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 02:03:30 --> Invalid file: siswa/nilai/index.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(9): view()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-05-21 02:06:02 --> Invalid file: template/template/siswaTemplate.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(9): view()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-05-21 02:06:16 --> Undefined variable $title
+#0 /media/fred/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/template/siswa/siswaTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(9): view()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-05-21 02:06:32 --> Undefined variable $title
+#0 /media/fred/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/template/siswa/siswaTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(9): view()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-05-21 02:06:40 --> Undefined variable $title
+#0 /media/fred/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/template/siswa/siswaTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(9): view()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+ERROR - 2022-05-21 02:49:10 --> Unknown column 'tugas.mapel' in 'on clause'
+CRITICAL - 2022-05-21 02:49:10 --> Unknown column 'tugas.mapel' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:50:08 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:50:08 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:50:26 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:50:26 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:50:27 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:50:27 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:50:59 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:50:59 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:51:00 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:51:00 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:51:00 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:51:00 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(43): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:51:27 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:51:27 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:51:28 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:51:28 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:51:28 --> Not unique table/alias: 'tugas'
+CRITICAL - 2022-05-21 02:51:28 --> Not unique table/alias: 'tugas'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(44): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 02:59:00 --> Unknown column 'datamapel.nama' in 'field list'
+CRITICAL - 2022-05-21 02:59:00 --> Unknown column 'datamapel.nama' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(40): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:01:03 --> Unknown column 'tugas.id' in 'on clause'
+CRITICAL - 2022-05-21 03:01:03 --> Unknown column 'tugas.id' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:02:21 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:02:21 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:04:26 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:04:26 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:06:33 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:06:33 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:06:34 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:06:34 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:06:34 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:06:34 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:06:34 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:06:34 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:05 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:05 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:05 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:05 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:06 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:06 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:06 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:06 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:09 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:09 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:12 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:12 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:07:38 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:07:38 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(54): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:43 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:43 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:43 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:43 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:44 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:45 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:45 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:08:45 --> Unknown column 'hasilquiz.nilai' in 'field list'
+CRITICAL - 2022-05-21 03:08:45 --> Unknown column 'hasilquiz.nilai' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:10:27 --> Unknown table 'elearning.hasilquiz'
+CRITICAL - 2022-05-21 03:10:27 --> Unknown table 'elearning.hasilquiz'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:10:28 --> Unknown table 'elearning.hasilquiz'
+CRITICAL - 2022-05-21 03:10:28 --> Unknown table 'elearning.hasilquiz'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(53): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:11:47 --> Unknown column 'hasilujian.tugas' in 'on clause'
+CRITICAL - 2022-05-21 03:11:47 --> Unknown column 'hasilujian.tugas' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+CRITICAL - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+CRITICAL - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+CRITICAL - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+CRITICAL - 2022-05-21 03:11:48 --> Unknown column 'hasilujian.tugas' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 03:12:17 --> Unknown column 'hasilujian.tugas' in 'on clause'
+CRITICAL - 2022-05-21 03:12:17 --> Unknown column 'hasilujian.tugas' in 'on clause'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 03:20:01 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 03:23:13 --> Call to undefined method App\Controllers\Siswa\Nilai::respond()
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 03:23:47 --> Call to undefined method App\Controllers\Siswa\Nilai::respond()
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 03:27:45 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 03:41:01 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 03:41:05 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 03:41:08 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 03:41:20 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 03:41:21 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 03:41:21 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 03:44:00 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 04:07:19 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 04:20:54 --> syntax error, unexpected end of file
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-05-21 04:21:22 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 04:22:28 --> Undefined variable $title
+#0 /media/fred/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/template/siswa/siswaTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(81): view()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-05-21 04:23:12 --> Undefined array key "tugas"
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(82): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 04:23:44 --> Undefined array key "mapel"
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(82): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 04:26:14 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(42): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 04:50:44 --> Undefined variable $title
+#0 /media/fred/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/fred/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(49): view()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->detail()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-05-21 04:50:55 --> Undefined variable $title
+#0 /media/fred/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/fred/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(49): view()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->detail()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-05-21 04:55:13 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 04:56:00 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 04:56:05 --> Too few arguments to function App\Controllers\Siswa\Nilai::tampilnilai(), 0 passed in /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 04:57:11 --> Invalid file: template/siswa/siswatemplate.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(26): view()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-05-21 05:00:08 --> Class "App\Database\Migrations\DataMapel" not found
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Siswa\Nilai->__construct()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 05:00:24 --> Undefined variable $mapel
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(30): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 05:04:33 --> Undefined variable $mapel
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(89): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 05:04:54 --> Invalid file: siswa/nilai/tampilnilai.php
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(89): view()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-05-21 06:52:55 --> Undefined variable $mapel
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/tampil.php(7): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(89): view()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2022-05-21 07:00:38 --> Undefined variable $mapel
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/index.php(14): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Views/siswa/nilai/tampil.php(7): CodeIgniter\View\View->include()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#8 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Nilai.php(89): view()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Nilai->tampilnilai()
+#10 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2022-05-21 07:18:03 --> Too few arguments to function CodeIgniter\View\View::section(), 0 passed in /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php on line 4 and exactly 1 expected
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php(4): CodeIgniter\View\View->section()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(19): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 07:26:50 --> Class "App\Database\Migrations\DataRuangankelas" not found
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Siswa\Materi->__construct()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 07:42:38 --> Undefined array key "mapel"
+#0 /media/fred/Work/coding/ta/ta/app/Views/guru/materi/index.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(50): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 07:43:31 --> Class "App\Database\Migrations\DataRuangankelas" not found
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Siswa\Materi->__construct()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 07:56:13 --> Class "App\Database\Migrations\DataRuangankelas" not found
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Siswa\Materi->__construct()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+ERROR - 2022-05-21 07:58:54 --> Unknown column 'datamapel.namamapel' in 'field list'
+CRITICAL - 2022-05-21 07:58:54 --> Unknown column 'datamapel.namamapel' in 'field list'
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:06:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:06:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(27): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:06:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:06:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(27): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-05-21 08:07:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+CRITICAL - 2022-05-21 08:07:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL' at line 3
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(26): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 08:08:02 --> Undefined variable $query
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:08:10 --> Undefined variable $tugas
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:10:51 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, array given, called in /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php on line 28
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(28): CodeIgniter\Database\BaseBuilder->getWhere()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:10:52 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, array given, called in /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php on line 28
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(28): CodeIgniter\Database\BaseBuilder->getWhere()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:10:52 --> CodeIgniter\Database\BaseBuilder::getWhere(): Argument #2 ($limit) must be of type ?int, array given, called in /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php on line 28
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(28): CodeIgniter\Database\BaseBuilder->getWhere()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:11:29 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(29): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:11:30 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(29): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:12:53 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:12:54 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:12:54 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:12:55 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:15:34 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:15:51 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:15:51 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(312): implode()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(293): CodeIgniter\Database\Query->matchNamedBinds()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#6 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(30): CodeIgniter\Database\BaseBuilder->get()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#8 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-05-21 08:17:14 --> Undefined array key "ruangan"
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:18:08 --> Cannot use [] for reading
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 08:19:07 --> Call to a member function first() on array
+#0 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-05-21 08:19:24 --> Undefined array key 0
+#0 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-05-21 08:33:42 --> Undefined array key 0
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(46): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 08:34:38 --> Undefined array key 0
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(46): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 08:34:39 --> Undefined array key 0
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(46): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 08:35:44 --> Undefined array key 0
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(46): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-05-21 08:45:07 --> Undefined variable $dt
+#0 /media/fred/Work/coding/ta/ta/app/Views/siswa/materi/index.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/fred/Work/coding/ta/ta/app/Controllers/Siswa/Materi.php(46): view()
+#5 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Siswa\Materi->index()
+#6 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/fred/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/fred/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}

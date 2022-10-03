@@ -1,0 +1,443 @@
+ERROR - 2022-02-25 01:08:59 --> Unknown data type: 'VACHAR'
+ERROR - 2022-02-25 01:11:32 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+CRITICAL - 2022-02-25 01:16:57 --> Cannot declare class App\Admin\Models\AdminGuruModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 01:17:32 --> Cannot declare class App\Admin\Models\DataGuru\AdminGuruModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 01:17:33 --> Cannot declare class App\Admin\Models\DataGuru\AdminGuruModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 01:19:07 --> Class "App\Models\Admin" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin->guru()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-25 01:19:30 --> Cannot declare class App\Admin\Models\DataGuru\AdminGuruModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 01:20:13 --> Cannot declare class App\Admin\Models\DataGuru\AdminGuruModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 01:20:52 --> Undefined property: App\Controllers\Admin::$adminGuruModel
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin->guru()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 01:20:54 --> Undefined property: App\Controllers\Admin::$adminGuruModel
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Admin.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin->guru()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 01:52:55 --> syntax error, unexpected variable "$title", expecting "," or ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Admin.php(48): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin->guru()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-25 02:09:15 --> Cannot declare class App\Controllers\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 02:12:22 --> Cannot declare class App\Controllers\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 02:12:28 --> Cannot declare class App\Controllers\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 02:12:46 --> Cannot declare class App\Controllers\Admin\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 02:12:47 --> Cannot declare class App\Controllers\Admin\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 02:12:47 --> Cannot declare class App\Controllers\Admin\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-25 02:41:55 -->  route cannot be found while reverse-routing.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataguru.php(39): redirect()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->hapus()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-25 04:42:37 --> Undefined variable $data
+#0 /media/disk/Work/coding/ta/ta/app/Views/template/parsial/script.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Views/template/admin/adminTemplate.php(29): CodeIgniter\View\View->include()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataguru.php(22): view()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->index()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-02-25 04:42:52 --> Too few arguments to function App\Controllers\Admin\Dataguru::edit(), 0 passed in /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->edit()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-25 04:44:00 --> Too few arguments to function App\Controllers\Admin\Dataguru::edit(), 0 passed in /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php on line 825 and exactly 1 expected
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->edit()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-02-25 04:56:34 --> Invalid file: admin/guru.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataguru.php(22): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataguru->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2022-02-25 04:58:56 --> Table 'elearning.datasiswas' doesn't exist
+CRITICAL - 2022-02-25 04:58:56 --> Table 'elearning.datasiswas' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datasiswa.php(17): CodeIgniter\BaseModel->findAll()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datasiswa->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-02-25 04:59:35 --> Table 'elearning.datasiswas' doesn't exist
+CRITICAL - 2022-02-25 04:59:35 --> Table 'elearning.datasiswas' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datasiswa.php(18): CodeIgniter\BaseModel->findAll()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datasiswa->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-02-25 05:00:07 --> Table 'elearning.datasiswas' doesn't exist
+CRITICAL - 2022-02-25 05:00:07 --> Table 'elearning.datasiswas' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datasiswa.php(18): CodeIgniter\BaseModel->findAll()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datasiswa->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-02-25 05:00:24 --> Undefined variable $dataGuru
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datasiswa/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datasiswa.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datasiswa->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 05:00:51 --> Undefined variable $datasiswa
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datasiswa/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datasiswa.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datasiswa->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 05:03:19 --> Invalid file: tambah.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Views/admin/datasiswa/index.php(59): CodeIgniter\View\View->include()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datasiswa.php(21): view()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datasiswa->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-02-25 08:13:04 --> syntax error, unexpected token "}", expecting ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:13:32 --> syntax error, unexpected token "}", expecting ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:13:34 --> syntax error, unexpected token "}", expecting ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:13:34 --> syntax error, unexpected token "}", expecting ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:13:34 --> syntax error, unexpected token "}", expecting ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:13:35 --> syntax error, unexpected token "}", expecting ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:13:51 --> Invalid file: admin/.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datajurusan.php(21): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datajurusan->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-25 08:14:24 --> Undefined variable $title
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datajurusan/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datajurusan.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datajurusan->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 08:14:25 --> Undefined variable $title
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datajurusan/index.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datajurusan.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datajurusan->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 08:14:40 --> Undefined array key "id"
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datajurusan/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datajurusan.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datajurusan->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 08:14:41 --> Undefined array key "id"
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datajurusan/index.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datajurusan.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datajurusan->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 08:14:59 --> Undefined array key "id"
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/datajurusan/index.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Datajurusan.php(21): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Datajurusan->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-02-25 08:28:07 --> Invalid file: admin/Dataadmin/index.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(22): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-25 08:28:36 --> Invalid file: admin/dataadmin/index.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(22): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-02-25 08:28:58 --> Undefined variable $dataAdmin
+#0 /media/disk/Work/coding/ta/ta/app/Views/admin/dataadmin/index.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(22): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+ERROR - 2022-02-25 08:30:23 --> Table 'elearning.dataadmin' doesn't exist
+CRITICAL - 2022-02-25 08:30:23 --> Table 'elearning.dataadmin' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(19): CodeIgniter\BaseModel->findAll()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-02-25 08:54:25 --> Undefined property: App\Controllers\Admin\Dataadmin::$validation
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 08:56:08 --> preg_match(): Argument #2 ($subject) must be of type string, array given
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(269): preg_match()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(32): CodeIgniter\Controller->validate()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-25 08:58:21 --> required  is not a valid rule.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(32): CodeIgniter\Controller->validate()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-25 08:59:56 --> required  is not a valid rule.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(32): CodeIgniter\Controller->validate()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-25 08:59:58 --> required  is not a valid rule.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(32): CodeIgniter\Controller->validate()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-02-25 09:00:37 --> Undefined property: App\Controllers\Admin\Dataadmin::$guruModel
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 09:01:11 --> Undefined property: App\Controllers\Admin\Dataadmin::$guruModel
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-02-25 09:01:47 --> Undefined property: App\Controllers\Admin\Dataadmin::$guruModel
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Admin/Dataadmin.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Admin\Dataadmin->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}

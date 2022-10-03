@@ -1,0 +1,47 @@
+CRITICAL - 2022-08-26 08:43:47 --> Division by zero
+#0 /mnt/work/coding/ta/ta/app/Views/guru/raportsiswa/detail.php(59): rataTugas()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /mnt/work/coding/ta/ta/app/Controllers/Guru/Raportsiswa.php(55): view()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Raportsiswa->detail()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-08-26 09:00:43 --> Division by zero
+#0 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /mnt/work/coding/ta/ta/app/Controllers/Guru/Raportsiswa.php(55): view()
+#4 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Raportsiswa->detail()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-08-26 09:17:19 --> Undefined variable $rataUjian
+#0 /mnt/work/coding/ta/ta/app/Views/guru/raportsiswa/detail.php(94): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /mnt/work/coding/ta/ta/app/Controllers/Guru/Raportsiswa.php(55): view()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Raportsiswa->detail()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-08-26 09:21:26 --> Undefined variable $rata
+#0 /mnt/work/coding/ta/ta/app/Views/guru/raportsiswa/detail.php(107): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /mnt/work/coding/ta/ta/app/Controllers/Guru/Raportsiswa.php(55): view()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Raportsiswa->detail()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}

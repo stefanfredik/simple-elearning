@@ -1,0 +1,1486 @@
+ERROR - 2022-04-17 08:01:18 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-04-17 08:01:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(73): CodeIgniter\BaseModel->first()
+#5 /media/disk/Work/coding/ta/ta/app/Controllers/Login.php(25): App\Controllers\Login->cekUser()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Login->index()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#9 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}
+CRITICAL - 2022-04-17 08:18:51 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(40): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 08:34:56 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 08:44:29 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 08:54:14 --> Invalid file: guru/tugas/index.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(15): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2022-04-17 09:19:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`kelas` VARHCAR(64) NOT NULL,
+	`mapel` VARCHAR NOT NULL,
+	CONSTRAI...' at line 6
+ERROR - 2022-04-17 09:20:04 --> Unknown data type: 'VARHCAR'
+CRITICAL - 2022-04-17 09:26:24 --> syntax error, unexpected end of file
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(21): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-17 09:31:33 --> syntax error, unexpected end of file
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(23): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-17 09:36:50 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 11:36:41 --> syntax error, unexpected token "}"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:37:20 --> Undefined property: App\Controllers\Guru\Tugas::$input
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:38:32 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::post()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 11:41:37 --> Undefined array key "time"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:41:51 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:42:17 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:42:20 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:42:20 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:42:20 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:42:20 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:42:21 --> Undefined array key "date"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:45:12 --> syntax error, unexpected identifier "dd"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:46:47 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php on line 42 and exactly 1 expected
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(42): CodeIgniter\BaseModel->save()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:50:32 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php on line 47 and exactly 1 expected
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(47): CodeIgniter\BaseModel->save()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->tambah()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 11:57:13 --> Undefined variable $data
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(34): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:03:04 --> Undefined array key "nama_kelas"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:03:28 --> Undefined array key "nama_kelas"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:03:45 --> Undefined array key "nama_ruangan"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:05:58 --> Undefined array key "nama_ruangan"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:06:02 --> Undefined array key "nama_ruangan"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:06:49 --> Undefined array key "nama_ruangan"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:07:36 --> Undefined array key "nama_ruangan"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:07:37 --> Undefined array key "nama_ruangan"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:07:46 --> Array to string conversion
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(24): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 12:09:46 --> Undefined variable $kelas
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/tambah.php(45): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Views/guru/tugas/index.php(57): CodeIgniter\View\View->include()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#12 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#14 {main}
+CRITICAL - 2022-04-17 12:14:50 --> syntax error, unexpected end of file
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(31): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-17 12:41:44 --> Object of class DateTime could not be converted to string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->cek()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 12:44:31 --> Object of class DateTime could not be converted to string
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->cek()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 05:46:13 --> Undefined array key "batas_waktu"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 05:46:15 --> Undefined array key "batas_waktu"
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 18:46:26 --> There is no data to update.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(33): CodeIgniter\Model->update()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 18:46:27 --> There is no data to update.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(33): CodeIgniter\Model->update()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 18:46:27 --> There is no data to update.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(33): CodeIgniter\Model->update()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 18:46:27 --> There is no data to update.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(33): CodeIgniter\Model->update()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 18:46:39 --> There is no data to update.
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(651): CodeIgniter\BaseModel->update()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Tugas.php(33): CodeIgniter\Model->update()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 05:57:29 --> Call to a member function orderBy() on array
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Tugas->index()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:07:38 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:09:40 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:10:16 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:10:21 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:10:50 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:10:50 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:10:50 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:10:51 --> Class "App\Models\Guru\quizModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+ERROR - 2022-04-17 06:11:20 --> Table 'elearning.quiz' doesn't exist
+CRITICAL - 2022-04-17 06:11:20 --> Table 'elearning.quiz' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(21): CodeIgniter\BaseModel->findAll()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2022-04-17 06:11:22 --> Table 'elearning.quiz' doesn't exist
+CRITICAL - 2022-04-17 06:11:22 --> Table 'elearning.quiz' doesn't exist
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(21): CodeIgniter\BaseModel->findAll()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#10 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#12 {main}
+CRITICAL - 2022-04-17 06:17:28 --> Undefined property: App\Controllers\Guru\Quiz::$session
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:19:26 --> Undefined property: App\Controllers\Guru\Quiz::$session
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:20:18 --> Undefined property: App\Controllers\Guru\Quiz::$session
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Quiz->__construct()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:21:10 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:22:03 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:23:45 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:28 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:29 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:29 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:29 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:29 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:29 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:30 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:30 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:30 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:30 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:30 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:30 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:50 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:51 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:51 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:51 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:24:51 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:23 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:23 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:23 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:23 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:24 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:25 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:25 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:25 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:25 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:25 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:26 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:26 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:26 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:26 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:26 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:26 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:27 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:27 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:27 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:27 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:27 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:27 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:28 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:46 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:47 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:47 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:47 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:25:47 --> Undefined property: App\Controllers\Guru\Quiz::$id
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Quiz.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Quiz->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:32:34 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:33:12 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:33:13 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:33:13 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:03 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:04 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:04 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:04 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:04 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:04 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:34:04 --> Class "App\Models\Guru\ujianModel" not found
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Guru\Ujian->__construct()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2022-04-17 06:35:04 --> Invalid file: guru/ujian/index.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Ujian.php(40): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Ujian->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-17 06:37:17 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:44:28 --> Too few arguments to function view(), 0 passed in /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php on line 15 and at least 1 expected
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 06:45:43 --> Invalid file: guru/materi.php
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-17 06:48:31 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 06:48:31 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 06:48:31 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 06:48:32 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 06:48:44 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 06:48:49 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-04-17 06:49:07 --> Undefined variable $title
+#0 /media/disk/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Materi.php(15): view()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Materi->index()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-04-17 06:49:39 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:50:11 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:50:49 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:51:02 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:53:50 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(34): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:55:16 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(34): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 06:55:39 --> Undefined array key "hari"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(34): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:13:10 --> Undefined variable $jadwal
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(36): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:14:25 --> Undefined variable $jadwal
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:14:26 --> Undefined variable $jadwal
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:14:26 --> Undefined variable $jadwal
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:14:26 --> Undefined variable $jadwal
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(37): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:22 --> Undefined property: App\Controllers\Guru\Kelas::$ruanganKelas
+#0 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2022-04-17 07:41:32 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:33 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:33 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:33 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:33 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:33 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:41:34 --> Undefined array key "mapel"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 07:48:03 --> Undefined array key "id"
+#0 /media/disk/Work/coding/ta/ta/app/Views/guru/kelas/index.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#8 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-04-17 08:42:06 --> syntax error, unexpected token ";"
+#0 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(43): view()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->index()
+#4 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#6 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2022-04-17 08:47:14 --> Undefined variable $title
+#0 /media/disk/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(48): view()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->detail()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}
+CRITICAL - 2022-04-17 09:48:41 --> Undefined variable $title
+#0 /media/disk/Work/coding/ta/ta/app/Views/template/parsial/breadcrumb.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(424): CodeIgniter\View\View->render()
+#4 /media/disk/Work/coding/ta/ta/app/Views/template/guru/guruTemplate.php(19): CodeIgniter\View\View->include()
+#5 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#6 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/View/View.php(226): CodeIgniter\View\View->render()
+#8 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#9 /media/disk/Work/coding/ta/ta/app/Controllers/Guru/Kelas.php(48): view()
+#10 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Kelas->detail()
+#11 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#12 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#13 /media/disk/Work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 /media/disk/Work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#15 {main}

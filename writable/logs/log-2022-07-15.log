@@ -1,0 +1,44 @@
+CRITICAL - 2022-07-15 07:29:45 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#3 /mnt/work/coding/ta/ta/app/Controllers/Guru/Absensi.php(56): CodeIgniter\BaseModel->save()
+#4 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Absensi->updateabsensi()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-07-15 07:29:58 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#3 /mnt/work/coding/ta/ta/app/Controllers/Guru/Absensi.php(56): CodeIgniter\BaseModel->save()
+#4 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Absensi->updateabsensi()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-07-15 07:30:31 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#3 /mnt/work/coding/ta/ta/app/Controllers/Guru/Absensi.php(56): CodeIgniter\BaseModel->save()
+#4 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Absensi->updateabsensi()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2022-07-15 07:30:41 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+#0 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray()
+#1 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#3 /mnt/work/coding/ta/ta/app/Controllers/Guru/Absensi.php(56): CodeIgniter\BaseModel->save()
+#4 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(825): App\Controllers\Guru\Absensi->updateabsensi()
+#5 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#6 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#7 /mnt/work/coding/ta/ta/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /mnt/work/coding/ta/ta/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}

@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1661520099;_ci_previous_url|s:48:"http://localhost:8080/index.php/admin/informasi/";id|s:1:"7";nama|s:4:"fred";email|s:15:"admin@gmail.com";role|s:5:"admin";login|b:1;pesan|a:3:{s:5:"judul";s:14:"Data Informasi";s:5:"pesan";s:28:"Informasi berhasil ditambah!";s:4:"type";s:7:"success";}__ci_vars|a:1:{s:5:"pesan";s:3:"old";}
